@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "title": "3",
+      "content": "3",
+      "id": 3
+    },
+    {
+      "title": "sssss",
+      "content": "sss",
+      "id": 4
+    },
+    {
+      "title": "wwdawd",
+      "content": "dwadaad",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "post_id": 1,
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "content": "I like this post!"
+    },
+    {
+      "post_id": 2,
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "content": "I don't like this post!"
+    }
+  ]
+}

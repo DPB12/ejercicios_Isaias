@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!-- This element is used to mount your app. -->
+    <div class="container">
+      <div class="row mt-3 mb-3">
+        <div class="col-md-6">
+          <h2>Añadir post</h2>
+          <form action="" class="add-post-form">
+            <div class="form-group mt-2 mb-2">
+              <label for="title">Titulo</label>
+              <input type="text" class="form-control" id="title-post">
+            </div>
+            <div class="form-group mt-2 mb-2">
+              <label for="content-post">Contenido post</label>
+              <textarea class="form-control" rows="5" id="content-post"></textarea>
+            </div>
+            <div class="form-group mt-2 mb-2" id="submitForm">
+              <input type="submit" class="btn btn-primary mt-2 mb-2" value="Añadir post"> 
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="post-list row mt-5">
+
+        <!-- <div class="card card m-lg-2" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Editar pos</a>
+            <a href="#" class="card-link">Eliminar post</a>
+          </div>
+        </div> -->
+
+      </div>
+
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

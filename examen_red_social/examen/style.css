@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 0 26px;
+}
+
+.centered-header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Resto de los estilos CSS... */
+/* Recuerda reemplazar este comentario por los estilos reales */
+/* ... */
